@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Button, Image } from "react-bootstrap";
+import ModalCity from "./ModalCity";
 
 function MapSection() {
+  const [modalShow, setModalShow] = useState(false);
+
   return (
     <>
       <Container className="pt-4">
@@ -39,7 +42,12 @@ function MapSection() {
         </div>
         <Container>
           <div className="d-flex justify-content-center mt-5 mb-5">
-            <Image src="images/map.svg" alt="Map" />
+            <Image
+              src="images/map.svg"
+              alt="Map"
+              onClick={() => setModalShow(true)}
+            />
+            <ModalCity show={modalShow} onHide={() => setModalShow(false)} />
           </div>
         </Container>
         <Container className="pt-4 pb-4">
