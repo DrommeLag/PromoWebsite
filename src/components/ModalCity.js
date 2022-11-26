@@ -5,6 +5,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
+import viewPoint1 from "../img/view-point1.svg";
+import viewPoint2 from "../img/view-point2.svg";
+import viewPoint3 from "../img/view-point3.svg";
 
 function ModalCity(props) {
   return (
@@ -24,13 +27,13 @@ function ModalCity(props) {
         <Container className="text-center">
           <Row>
             <Col xs={6} md={4}>
-              <Image src="./images/lviv/view-point1.svg" alt="View point 1" />
+              <Image src={viewPoint1} alt="View point 1" />
             </Col>
             <Col xs={6} md={4}>
-              <Image src="./images/lviv/view-point2.svg" alt="View point 2" />
+              <Image src={viewPoint2} alt="View point 2" />
             </Col>
             <Col xs={6} md={4}>
-              <Image src="./images/lviv/view-point3.svg" alt="View point 3" />
+              <Image src={viewPoint3} alt="View point 3" />
             </Col>
           </Row>
           <p className="pt-4">
