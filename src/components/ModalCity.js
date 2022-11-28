@@ -8,6 +8,7 @@ import Container from "react-bootstrap/Container";
 import viewPoint1 from "../img/view-point1.svg";
 import viewPoint2 from "../img/view-point2.svg";
 import viewPoint3 from "../img/view-point3.svg";
+import { NavLink } from "react-bootstrap";
 
 function ModalCity(props) {
   return (
@@ -48,7 +49,9 @@ function ModalCity(props) {
         <Button variant="secondary" onClick={props.onHide}>
           Назад
         </Button>
-        <Button variant="warning">Досліджувати</Button>
+        <Button variant="warning">
+          <NavLink href="/lviv">Досліджувати</NavLink>
+        </Button>
       </Modal.Footer>
     </Modal>
   );

@@ -6,6 +6,7 @@ import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import MapPage from "./pages/MapPage";
+import ViewPointSection from "./components/ViewPointSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/map" element={<MapPage />} />
+          <Route path="/lviv" element={<ViewPointSection />} />
         </Routes>
       </Router>
     </>
