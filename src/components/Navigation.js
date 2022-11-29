@@ -4,7 +4,7 @@ import { Container, Nav, Navbar, Button } from "react-bootstrap";
 function Navigation() {
   return (
     <>
-      <Navbar bg="primary" variant="dark" className="pt-3">
+      <Navbar bg="primary" variant="dark" className="pt-3 mb-5">
         <Container>
           <Navbar.Brand href="#home">
             <img src="images/logo.svg" alt="Logo"></img>

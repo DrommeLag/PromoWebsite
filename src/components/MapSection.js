@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Container, Button, Image } from "react-bootstrap";
+import CharacterModal from "./CharacterModal";
 import ModalCity from "./ModalCity";
+import map from "../img/map.svg";
 
 function MapSection() {
   const [modalShow, setModalShow] = useState(false);
@@ -32,21 +34,13 @@ function MapSection() {
               </div>
             </div>
           </div>
-          <div className="w-50 d-flex justify-content-between">
-            <div className="bg-light p-3 rounded">
-              Досліджуй Україну за допомогою інтерактивної карти! Для повного
-              функціоналу, скачуй додаток за QR кодом нижче!
-            </div>
-            <Image src="images/character.svg" alt="Character" />
+          <div className="w-50">
+            <CharacterModal />
           </div>
         </div>
         <Container>
           <div className="d-flex justify-content-center mt-5 mb-5">
-            <Image
-              src="images/map.svg"
-              alt="Map"
-              onClick={() => setModalShow(true)}
-            />
+            <Image src={map} alt="Map" onClick={() => setModalShow(true)} />
             <ModalCity show={modalShow} onHide={() => setModalShow(false)} />
           </div>
         </Container>
