@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 200px;
+  }
+
+ li  {
+    display: inline;
+    color: #002295;
+    text-align: center;
+    padding: 77px 16px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+a{
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FFDD2B
+    ;
+  }
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#logo{
+  width: 120px;
+  height: auto;
+}
