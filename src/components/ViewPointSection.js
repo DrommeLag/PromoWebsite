@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Container, Image, Button } from "react-bootstrap";
+import { Col, Row, Container, Image, Button, NavLink } from "react-bootstrap";
 import CharacterModal from "../components/CharacterModal";
 import operaHouse1 from "../img/opera-house1.svg";
 import operaHouse2 from "../img/opera-house2.svg";
@@ -34,7 +34,9 @@ function ViewPointSection() {
       <Container>
         <Container>
           <Button variant="warning" className="p-1">
-            <img src="./images/arrow.svg" alt="arrow"></img>
+            <NavLink href="/map">
+              <img src="./images/arrow.svg" alt="arrow"></img>
+            </NavLink>
           </Button>
         </Container>
         <Container className="d-flex justify-content-between my-5">
