@@ -8,6 +8,7 @@ import operaHouse4 from "../img/opera-house4.svg";
 import operaHouse5 from "../img/opera-house5.svg";
 import EventCard from "../components/EventCard";
 import Footer from "../components/Footer";
+import Navigation from "./Navigation";
 
 const data = [
   {
@@ -31,6 +32,7 @@ const data = [
 function ViewPointSection() {
   return (
     <>
+      <Navigation></Navigation>
       <Container>
         <Container>
           <Button variant="warning" className="p-1">
