@@ -9,7 +9,7 @@ function NavFooter() {
                     <a class="navbar-brand" href="#home"><img id="f_logo" alt="logo" src="images/nav_logo.svg" /></a>
                     <div className="links">
                         <div className="first-column">
-                            <a href="/home">Додаток</a>
+                            <a href="/">Додаток</a>
                             <a href="/map">Інтерактивна карта</a>
                             <a href="/about">Про нас</a>
                         </div>
