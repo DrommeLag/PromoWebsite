@@ -1,0 +1,135 @@
+#feature_text{
+    padding-top: 311px;
+    padding-bottom: 5px;
+}
+
+#line{
+    display: flex;
+    justify-content: center;
+}
+
+.feature_icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 147px 50px  0px 50px;
+}
+
+.icons{
+    padding-left: 70px;
+}
+
+#language_icon{
+    width: 180px;
+}
+
+#news_icon{
+    width: 180px;
+}
+
+#views_icon{
+    width: 160px;
+}
+
+#culture_icon{
+    width: 180px;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: #3e8fff;
+}
+
+.iteam-text{
+    width: 250px;
+    height: 100px;
+    padding-top: 27px;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #2254CD;
+    text-align: center;
+}
+
+
+/* next section */
+
+#view_text{
+    padding-top: 336px;
+}
+
+#feauters_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding-top: 100px;
+}
+
+
+/* next section */
+
+#map_text{
+    font-size: 20px;
+}
+
+#map_img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding-top: 77px;
+  padding-bottom: 111px;
+}
+
+.number{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #2254cd;
+    padding-right: 20px;
+}
+
+.chapter_text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2254CD;
+    text-align: left;
+    width: 585px;
+}
+
+#chapter_text_2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2254CD;
+    text-align: right;
+    padding-left: 700px;
+}
+
+#chapter_line_13{
+    padding-left: 180px;
+}
+
+#chapter_line_2{
+    padding-left: 900px;
+}
+
+.chapter{
+    padding: 10px 80px 30px 80px;
+}
+
+.try_btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+
+
