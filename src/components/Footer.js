@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Link } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 
 function Footer() {
   return (
