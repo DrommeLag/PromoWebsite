@@ -8,7 +8,7 @@ function NavBar() {
         <a class="navbar-brand" href="#home"><img id="logo" alt="logo" src="images/nav_logo.svg" /></a>
         <ul>
           <li>
-            <a href="/home">Додаток</a>
+            <a href="/">Додаток</a>
           </li>
           <li>
             <a href="/map">Інтерактивна карта</a>
