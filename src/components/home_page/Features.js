@@ -60,7 +60,7 @@ function Features (){
         </div>
         <div className="try_btn">
             <button className="button_landing_about">
-                <a href="/src/pages/MapPage.js">Перейти до карти</a>
+                <a href="/map">Перейти до карти</a>
             </button>
         </div>
         </>
