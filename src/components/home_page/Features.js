@@ -1,11 +1,12 @@
 import React from "react";
 import "./Features.css"
+import "../Styles.css";
 
 
 function Features (){
     return(
         <>
-        <h1 id="feature_text">Що ми пропонуємо ?</h1>
+        <h1 className="h-text" id="feature_text">Що ми пропонуємо ?</h1>
         <span id="line"><img alt="line" src='images/main_page/line_score.svg'/></span>
         <div className="feature_icons" >
             <div className="iteam">
@@ -37,13 +38,13 @@ function Features (){
                 </div>
             </div>
         </div>
-        <h1 id="view_text">Як це виглядає ?</h1>
+        <h1 className="h-text" id="view_text">Як це виглядає ?</h1>
         <span id="line"><img alt="line" src='images/main_page/line_score.svg'/></span>
         <img alt="features" src='images/main_page/feauters_app.svg' id="feauters_img" />
 
-        <h1 id="view_text">Інтерактивна карта</h1>
+        <h1 className="h-text" id="view_text">Інтерактивна карта</h1>
         <span id="line"><img alt="line" src='images/main_page/line_score.svg'/></span>
-        <p id="map_text">тепер вся країна перед тобою, обирай місто та досліджуй </p>
+        <p className="p_landing_about" id="map_text">тепер вся країна перед тобою, обирай місто та досліджуй </p>
         <img alt="map" id="map_img" src='images/main_page/map_bubbles.svg' />
         <div className="chapter">
             <p className="chapter_text"><span className="number">1.</span>Цікаво який одяг колись носили твої предки, де та як жили? Як виглядало твоє місто 200 років тому? Обирай місто, яке цікавить та дізнавайся про своє походження!</p>
@@ -58,7 +59,7 @@ function Features (){
             <span id="chapter_line_13"><img alt="line"src='images/main_page/line_score.svg'/></span>
         </div>
         <div className="try_btn">
-            <button className="button">
+            <button className="button_landing_about">
                 <a href="/src/pages/MapPage.js">Перейти до карти</a>
             </button>
         </div>
