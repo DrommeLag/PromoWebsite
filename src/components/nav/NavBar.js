@@ -17,7 +17,7 @@ function NavBar() {
             <a href="/about">Про нас</a>
           </li>
         </ul>
-        <button id="nav_btn" ><a href="https://play.google.com">Завантажити додаток</a></button>
+        <button className="button_landing_about" id="nav_btn" ><a href="https://play.google.com">Завантажити додаток</a></button>
       </nav>
     </>
   );

@@ -14,12 +14,12 @@ function NavFooter() {
                             <a href="/about">Про нас</a>
                         </div>
                         <div className="second-column">
-                            <a href="*">FQA</a>
+                            <a href="/about">FQA</a>
                             <a href="*">Тех підтримка</a>
                             <a href="*">drommelag@gmail.com</a>
                         </div>
                     </div>
-                    <button id="f_btn" className="button">
+                    <button  id="f_btn" className="button_landing_about">
                         <a href="https://play.google.com"><span><img id="play_btn" alt="icon" src='images/main_page/play_btn.png' /></span>Download on Google Play</a>
                     </button>
                 </div>
