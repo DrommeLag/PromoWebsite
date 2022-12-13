@@ -11,11 +11,11 @@ function Footer() {
             <a href="/home" className="nav-link">
               Головна
             </a>
-            <a href="/about" className="nav-link">
-              Про додаток
-            </a>
             <a href="/map" className="nav-link">
               Інтерактивна карта
+            </a>
+            <a href="/about" className="nav-link">
+              Про нас
             </a>
           </Container>
           <div className="text-light">

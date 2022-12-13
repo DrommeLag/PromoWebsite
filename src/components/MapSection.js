@@ -9,29 +9,27 @@ function MapSection() {
 
   return (
     <>
-      <Container className="pt-4">
-        <div className="d-flex justify-content-between">
-          <div className="w-25">
-            <h6 className="text-secondary pb-3">Обрати режим</h6>
-            <div className="d-flex justify-content-between text-start">
-              <div>
-                <Button variant="warning" size="sm" className="p-2">
-                  <Image src="images/view-points.svg" alt="View points" />
-                </Button>{" "}
-                <span>Пам'ятки</span>
-              </div>
-              <div>
-                <Button variant="light" size="sm" className="p-2">
-                  <Image src="images/lock.svg" alt="View points" />
-                </Button>{" "}
-                <span>Мова</span>
-              </div>
-              <div>
-                <Button variant="light" size="sm" className="p-2">
-                  <Image src="images/lock.svg" alt="View points" />
-                </Button>{" "}
-                <span>Культура</span>
-              </div>
+      <Container>
+        <h6 className="text-secondary p-4">Обрати режим</h6>
+        <div className="d-flex justify-content-between align-content-center">
+          <div className="d-flex justify-content-start w-25">
+            <div className="text-center">
+              <Button variant="warning" size="sm" className="p-2">
+                <Image src="images/view-points.svg" alt="View points" />
+              </Button>{" "}
+              <span>Пам'ятки</span>
+            </div>
+            <div className="text-center">
+              <Button variant="light" size="sm" className="p-2">
+                <Image src="images/lock.svg" alt="View points" />
+              </Button>{" "}
+              <span>Мова</span>
+            </div>
+            <div className="text-center">
+              <Button variant="light" size="sm" className="p-2">
+                <Image src="images/lock.svg" alt="View points" />
+              </Button>{" "}
+              <span>Культура</span>
             </div>
           </div>
           <div className="w-50">
@@ -39,25 +37,17 @@ function MapSection() {
           </div>
         </div>
         <Container>
-          <div className="d-flex justify-content-center mt-5 mb-5">
+          <div className="d-flex justify-content-center p-5 mt-5 mb-5">
             <Image src={map} alt="Map" onClick={() => setModalShow(true)} />
             <ModalCity show={modalShow} onHide={() => setModalShow(false)} />
           </div>
         </Container>
-        <Container className="pt-4 pb-4">
-          <div className="d-flex justify-content-between">
-            <div className="w-25">
-              <h6 className="text-secondary">Сподобався інтерактив?</h6>
-              <h4 className="text-primary">
-                Скануй QR код та встановлюй додаток!
-              </h4>
-            </div>
-            <div className="d-flex justify-content-between">
-              <div>
-                <Button variant="warning" size="sm" className="p-3">
-                  <Image src="images/question.svg" alt="View points" />
-                </Button>{" "}
-              </div>
+        <Container className="pt-4 pb-5">
+          <div className="d-flex justify-content-end">
+            <div>
+              <Button variant="warning" size="sm" className="p-3">
+                <Image src="images/question.svg" alt="View points" />
+              </Button>{" "}
             </div>
           </div>
         </Container>

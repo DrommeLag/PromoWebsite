@@ -33,7 +33,7 @@ function ViewPointSection() {
   return (
     <>
       <Navigation></Navigation>
-      <Container>
+      <Container className="mt-5">
         <Container>
           <Button variant="warning" className="p-1">
             <NavLink href="/map">
